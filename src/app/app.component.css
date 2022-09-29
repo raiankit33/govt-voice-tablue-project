@@ -1,0 +1,102 @@
+.main-header {
+  border-bottom: 3px solid #F15A29;
+  z-index: 1034;
+  background-color: #00bc8c21;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.header-Logo {
+    width: 100%;
+    height: 56px;
+    margin: 0 24px 0 0;
+    object-fit: contain;
+    background-color:#F15A29;
+  }
+  
+  .content-wrapper {
+    /* background-color: #3970b81f; */
+    background-color: ghostwhite;
+}
+
+  .brand-link{
+    height: 56px!important;
+    text-align: center;
+  }
+  
+  .brand-image{
+    height: 56px!important;
+    text-align: center;
+    float: unset!important;
+    margin: auto!important;
+    opacity: unset!important;
+  }
+  
+  .fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .img-circle{
+  border-radius: unset;
+  }
+  
+  .nav-link:hover {
+    color: #4A4A4A !important;;
+  }
+  
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #9b9b9b;
+    background-color: transparent;
+  }
+  
+  .image img {
+    width: 15%;
+    border-radius: 50%;
+    border: 1px solid grey;
+  }
+  
+  .image span {
+    font-family: "Arial";
+    width: 83px;
+    height: 47px;
+    font-size: 14px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+  }
+  
+  .main-footer{
+    font-family: "Arial";
+    font-size: 16px;
+  }
+  
+  .nav-sidebar > .nav-item .nav-icon.fa, .nav-sidebar > .nav-item .nav-icon.fas, .nav-sidebar > .nav-item .nav-icon.far, .nav-sidebar > .nav-item .nav-icon.fab, .nav-sidebar > .nav-item .nav-icon.glyphicon, .nav-sidebar > .nav-item .nav-icon.ion {
+    font-size: 1.0rem;
+  }
+  
+  p{
+    font-size: 12px;
+  }
+  
+  a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+
+.topnav-centered{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  
+  
+
+

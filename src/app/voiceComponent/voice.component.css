@@ -1,0 +1,45 @@
+.show{
+    display: flex;
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}
+
+.showLoader{
+  display: flex;
+}
+
+.hideLoader{
+  display: none;
+}
+
+.btn-outline-danger{
+    fill: #F15A29;
+}
+
+
+.spinner_overlay {
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: ghostwhite;
+    /* opacity: 0.9; */
+    z-index: 1000;
+  }
+  
+  .tree {
+    position: fixed;
+    margin: auto;
+    text-align: center;
+    top: 230px;
+  
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2500;
+  }
